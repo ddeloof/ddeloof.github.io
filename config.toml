@@ -1,0 +1,44 @@
+baseURL = 'https://delphine-deloof.com/'
+
+title = 'Delphine De Loof - Somatopathe'
+defaultContentLanguage = 'fr'
+theme = "hugo-story"
+
+[params]
+    copyright = "© Delphine De Loof"
+
+    description = "Delphine De Loof - Somatopathe"
+
+    # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+    favicon = "images/favicon.png"
+
+    # These "images" are used for the structured data templates. This will show up, when
+    # services like Twitter or Slack want to generate a preview of a link to your site.
+    # See https://gohugo.io/templates/internal#twitter-cards and
+    # https://gohugo.io/templates/internal#open-graph.
+    images = ["images/cover-image.jpg"]
+
+    # Another "title" :-). This one is used as the site_name on the Hugo's internal
+    # opengraph structured data template.
+    # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
+    title = "Delphine De Loof - Somatopathe"
+
+    # This theme will, by default, inject a design-by-line at the bottom of the page.
+    # You can turn it off, but we would really appreciate if you don’t :-)
+    # hidedesignbyline = true
+
+  description = "Delphine De Loof - Somatopathe"
+  logo = "images/banner.jpg"
+  favicon = true
+
+[Params.social]
+  github = "https://github.com/caressofsteel/"
+  twitter = "https://twitter.com/caressofsteel_"
+  email = "caressofsteel@protonmail.com"
+  instagram = "https://instagram.com"
+  linkedin = "https://linkedin.com"
+  telegram = "https://telegram.org"
+
+    [params.meta]
+        keywords = "somatopathie, delphine deloof"
+

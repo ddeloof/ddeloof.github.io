@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+	
+	{{ partial "template/head" . }}
+
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper" class="divided">
+            {{- block "main" . }}{{- end }}
+		<!-- Wrapper -->
+		</div>
+		
+		{{ template "_internal/google_analytics.html" . }}
+		{{ partial "template/scripts" . }}
+
+	</body>
+</html>

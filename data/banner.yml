@@ -1,0 +1,12 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "Delphine De Loof"
+subtitle: |
+  Somatopathe
+content : |
+  La Somatopathie, ou l'art de se faire des noeuds au cerveau.
+button:
+  label : "Contact"
+  link : "#contact"
+image : "images/cover-image.jpg"
+
