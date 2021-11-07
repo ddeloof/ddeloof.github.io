@@ -1,9 +1,0 @@
-####################### Spotlight #########################
-style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
-title : "Déroulement d'une séance"
-content: |
-  bla bla bla...
-button: 
-  label: "Learn More"
-  link: "#"
-image: "images/spotlight02.jpg"
