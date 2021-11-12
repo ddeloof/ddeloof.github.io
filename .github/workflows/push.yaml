@@ -25,7 +25,7 @@ jobs:
         run: hugo --minify
 
       - name: Patch
-        run: sed -i 's/ZgotmplZ/tel:0689876945/g' public/index.html
+        run: sed -i 's/\#ZgotmplZ/tel:0689876945/g' public/index.html
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
