@@ -24,8 +24,11 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Pathc
-        run: git am 0001-tel-link.patch
+      - name: Patch
+        run: |
+          git config --global user.email "nicolas.deloof@gmail.com"
+          git config --global user.name "Nicolas De Loof"
+          git am 0001-tel-link.patch
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
