@@ -25,10 +25,7 @@ jobs:
         run: hugo --minify
 
       - name: Patch
-        run: |
-          git config --global user.email "nicolas.deloof@gmail.com"
-          git config --global user.name "Nicolas De Loof"
-          git am 0001-tel-link.patch
+        run: sed -i 's/ZgotmplZ/tel:0689876945/g' public/index.html
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
