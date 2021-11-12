@@ -1,9 +1,11 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
 id: "first"
-title : "Ma pratique"
+title : "En pratique"
 content: |
-  bla bla bla...
+  La somatopathie apaise les douleurs chroniques, qu’elles soient musculaires, articulaires ou organiques. Elle est efficace pour lutter contre certaines céphalées ou vertiges. Elle agit  sur tous les types de symptômes aigus ou chroniques liés tant à des chocs physiques qu’émotionnels : traumatismes du sportif, séquelles de certaines opérations, mal être. Elle peut intervenir en accompagnement de confort de certaines maladies lourdes ou handicaps. De la future à la nouvelle maman, au « couple » mère-enfant…tout projet de fécondité peut également être « suivi en somatopathie », tant pour des troubles psycho-émotionnels que physiques.
+  <br><br>
+  Méthode manuelle douce, globale et généraliste, énergétique et fluidique, la somatopathie se pratique sans prescription médicale particulière et en accord avec la médecine contemporaine, à laquelle elle ne se substitue en aucune façon.
 button: 
   label: "Learn More"
   link: "#"

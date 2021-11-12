@@ -2,7 +2,13 @@
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
 title : "Déroulement d'une séance"
 content: |
-  bla bla bla...
+  La séance dure environ 1 heure. Elle est précédée d'un entretien permettant de connaître les antécédents et le terrain de la personne (digestion, allergies, qualité du sommeil, etc.).
+  <br><br>
+  Elle est suivie par une écoute attentive des différents mouvements subtils du crâne et par des corrections au sacrum (bas du dos) et aux pieds pour apporter un équilibre global au corps. Ensuite, le thérapeute dirigera la séance selon la demande du patient en traitant par exemple une douleur à l'épaule, un problème au genou,etc.
+  <br><br>
+  Il n’y a aucune manipulation ni mobilisation structurelle de la colonne vertébrale.
+  <br><br>
+  Pendant les premiers jours après la séance, des réactions neurovégétatives peuvent apparaître (fatigue physique, psychique, émotionnelle), délai habituel où le corps retrouve ses marques et de nouveaux repères.
 button: 
   label: "Learn More"
   link: "#"
