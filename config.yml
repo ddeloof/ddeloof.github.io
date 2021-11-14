@@ -4,6 +4,7 @@ title: 'Delphine De Loof - Somatopathe'
 defaultContentLanguage: 'fr'
 theme: "hugo-story"
 googleAnalytics: "G-P7KWHLFFEQ"
+description: "Delphine De Loof - Somatopathe"
 
 markup:
   goldmark:
@@ -12,12 +13,9 @@ markup:
 
 params:
   copyright: "© Delphine De Loof"
-  description: "Delphine De Loof - Somatopathe"
   favicon: "images/favicon.png"
   images: ["images/cover-image.jpg"]
   title: "Delphine De Loof - Somatopathe"
   description: "Delphine De Loof - Somatopathe"
   logo: "images/banner.jpg"
   favicon: true
-  meta:
-    keywords: "somatopathie, delphine deloof"
