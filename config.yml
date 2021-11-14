@@ -3,6 +3,7 @@ baseURL: 'https://delphine-deloof.com/'
 title: 'Delphine De Loof - Somatopathe'
 defaultContentLanguage: 'fr'
 theme: "hugo-story"
+googleAnalytics: "G-P7KWHLFFEQ"
 
 markup:
   goldmark:
