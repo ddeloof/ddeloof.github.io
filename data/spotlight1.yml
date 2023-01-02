@@ -3,11 +3,17 @@ style: "style1 orient-right content-align-left image-position-center onscroll-im
 id: "first"
 title : "La Somatopathie"
 content: |
-  Issue de l’ostéopathie, la somatopathie est une thérapie manuelle douce dont le but est de soigner les maux de la mémoire et des sensations qui se sont incarnés physiquement. Du grec « soma », « le corps » et « pathos », qui désigne « ce qui affecte le corps », la somatopathie consiste à rétablir notre équilibre, à la fois psychologique, physiologique,  énergétique et émotionnel. 
-  <br><br>
-  La somatopathie part du principe que notre coprs constitue un réceptacle des souvenirs et traumas plus ou moins anciens. Il peut s’agir de nos propres souvenirs, ou bien même de ceux de personnes de notre famille, qui nous les ont transmis consciemment ou non. Certains de ces souvenirs et émotions peuvent provoquer en nous un choc, un stress, un trouble, en réponse aux situations que nous rencontrons, causes de déstabilisations psychosomatique. L’objectif de la somatopathie est justement de rétablir l’harmonie du corps et celle de l’esprit en agissant sur cette mémoire, qui la plupart du temps est inconsciente, par le biais de gestes manuels de correction spécifiques, très légers.
-  <br><br>
-  La somatopathie est une thérapie globale et généraliste. De par sa totale innocuité, elle se pratique sans prescription médicale particulière et en accord avec la médecine contemporaine, à laquelle elle ne se substitue en aucune façon. C’est uniquement la demande du patient, ses symptômes physiques, corporels, comportementaux, qui guideront la séance, dans le respect de sa personne et de ses limites.
+  La somatopathie est une <b>technique manuelle douce</b> issue de
+  l’ostéopathie <b>Méthode Poyet</b>, développée par Maurice Raymond Poyet.
+  <p>
+  La méthode Poyet est une thérapie manuelle basée sur le MRP : mouvement respiratoire
+  primaire. Ce MRP est un micro mouvement rythmique qui anime tous les tissus et les os de
+  l’organisme. C’est le mouvement de vie a été décrit pour la première fois en 1945 par
+  Sutherland, disciple de Andrew Taylor Still, inventeur de l’ostéopathie.
+  <p>
+  La somatopathie a été ensuite développée par un élève de Maurice Raymond Poyet. Elle
+  consiste à mettre en lien les maux physiques et émotionnels, afin de corriger de façon
+  durable les blocages et restaurer la mobilité des articulations, des muscles, des organes.
 button: 
   label: "Learn More"
   link: "#"

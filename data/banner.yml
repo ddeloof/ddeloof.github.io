@@ -10,5 +10,5 @@ content : |
 button:
   label : "Contact"
   link : "#contact"
-image : "images/cover-image.jpg"
+image : "images/photo.jpg"
 

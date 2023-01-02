@@ -1,11 +1,27 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
 id: "first"
-title : "En pratique"
+title : "Déroulement d'une séance"
 content: |
-  La somatopathie apaise les douleurs chroniques, qu’elles soient musculaires, articulaires ou organiques. Elle est efficace pour lutter contre certaines céphalées ou vertiges. Elle agit  sur tous les types de symptômes aigus ou chroniques liés tant à des chocs physiques qu’émotionnels : traumatismes du sportif, séquelles de certaines opérations, mal être. Elle peut intervenir en accompagnement de confort de certaines maladies lourdes ou handicaps. De la future à la nouvelle maman, au « couple » mère-enfant…tout projet de fécondité peut également être « suivi en somatopathie », tant pour des troubles psycho-émotionnels que physiques.
-  <br><br>
-  Méthode manuelle douce, globale et généraliste, énergétique et fluidique, la somatopathie se pratique sans prescription médicale particulière et en accord avec la médecine contemporaine, à laquelle elle ne se substitue en aucune façon.
+  La somatopathie s’adresse à tous, bébés, enfants, adultes, femmes enceintes. C’est la
+  demande du patient par ses symptômes physiques, corporels, comportementaux, qui
+  guidera la séance, dans le respect de sa personne et de ses limites. Les enfants
+  devront être accompagnés d’un parent.
+  <p>
+  La séance dure environ 1 heure. Elle est précédée d&#39;un entretien permettant de
+  connaître les antécédents et le terrain de la personne (digestion, allergies, qualité du
+  sommeil, etc.).
+  <p>
+  Elle est suivie par une écoute attentive des différents mouvements subtils du crâne
+  et par des corrections au sacrum (bas du dos) et aux pieds pour apporter un
+  équilibre global au corps. Ensuite, le thérapeute dirigera la séance selon la demande
+  du patient en traitant par exemple une douleur à l&#39;épaule, un problème au genou,etc.
+  <p>
+  Il n’y a aucune manipulation ni mobilisation structurelle de la colonne vertébrale.
+  <p>
+  Pendant les premiers jours après la séance, des réactions neurovégétatives peuvent
+  apparaître (fatigue physique, psychique, émotionnelle), délai habituel où le corps
+  retrouve ses marques et de nouveaux repères.
 button: 
   label: "Learn More"
   link: "#"

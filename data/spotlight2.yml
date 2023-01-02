@@ -1,14 +1,29 @@
 ####################### Spotlight #########################
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
-title : "Déroulement d'une séance"
+title : "En pratique"
 content: |
-  La séance dure environ 1 heure. Elle est précédée d'un entretien permettant de connaître les antécédents et le terrain de la personne (digestion, allergies, qualité du sommeil, etc.).
-  <br><br>
-  Elle est suivie par une écoute attentive des différents mouvements subtils du crâne et par des corrections au sacrum (bas du dos) et aux pieds pour apporter un équilibre global au corps. Ensuite, le thérapeute dirigera la séance selon la demande du patient en traitant par exemple une douleur à l'épaule, un problème au genou,etc.
-  <br><br>
-  Il n’y a aucune manipulation ni mobilisation structurelle de la colonne vertébrale.
-  <br><br>
-  Pendant les premiers jours après la séance, des réactions neurovégétatives peuvent apparaître (fatigue physique, psychique, émotionnelle), délai habituel où le corps retrouve ses marques et de nouveaux repères.
+  La somatopathie part du principe que notre corps constitue un réceptacle des souvenirs et
+  traumatismes plus ou moins anciens. Il peut s’agir de nos propres expériences ou bien de
+  celles de personnes de notre famille, qui nous les ont transmis consciemment ou non.
+  Certains de ces souvenirs et émotions peuvent provoquer en nous un choc, un stress, un
+  trouble, en réponse aux situations que nous rencontrons.
+  <p>
+  L’objectif de la somatopathie est justement de <b>rétablir l’harmonie du corps et de
+  l’esprit</b> en agissant sur cette mémoire, qui la plupart du temps est inconsciente, par le biais
+  de gestes manuels de correction spécifiques, très légers et d’une mise en conscience.
+  <p>
+  La somatopathie par son <b>approche globale du corps</b>, prend en compte l'aspect
+  psycho-émotionnel qui peut être à l'origine de vos souffrances physiques, afin
+  d'aider votre corps à retrouver son équilibre
+  <p>
+  Le Somatopathe ne pratique pas de manipulations : ni thrust vertébral ni cracking
+  articulaire. Il ne pose pas de diagnostic médical et ne prescrit pas.
+  <p>
+  La somatopathie représente une approche complémentaire à la médecine française
+  traditionnelle mais ne la remplace pas. Tout traitement en cours doit être poursuivi en
+  accord avec le médecin traitant.
+  <p>
+  <a traget="_blank" href="https://www.somatopathie.com/">école de somatopathie</a>
 button: 
   label: "Learn More"
   link: "#"
