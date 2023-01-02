@@ -18,6 +18,10 @@ showQr = false
 showSkills = true
 description = "Delphine De Loof - somatopathe"
 
+[params.google]
+
+[params.google.analytics]
+trackerID = "G-P7KWHLFFEQ"
 
 [[params.handles]]
 link = "mailto:delphine.deloof@gmail.com"
