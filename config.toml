@@ -1,0 +1,36 @@
+title = "Delphine De Loof - somatopathe"
+baseURL = "https://delphine-deloof-somatopathe.fr/"
+theme = "hugo-resume"
+languageCode = "fr-FR"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+profileImage = "images/photo.jpg"
+showEducation = true
+showExperience = false
+showOpenSource = true
+showProjects = true
+showPublications = false
+showQr = false
+showSkills = true
+description = "Delphine De Loof - somatopathe"
+
+
+[[params.handles]]
+link = "mailto:delphine.deloof@gmail.com"
+name = "e-Mail"
+icon = "envelope"
+
+[[params.handles]]
+link = "tel:0689876945"
+name = "Téléphone"
+icon = "phone"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"
