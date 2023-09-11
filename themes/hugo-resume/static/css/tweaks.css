@@ -132,3 +132,14 @@ div.skills-heading{
     .TUIr4b {
       font-family: 'Open Sans', serif !important;
     }
+
+    .btn-custom {
+      color:#fff;
+      background-color: rgb(142, 36, 170);
+    }
+
+    .btn-custom:hover {
+      color:rgb(142, 36, 170);
+      border-color: rgb(142, 36, 170);
+      background-color: #fff;
+    }
