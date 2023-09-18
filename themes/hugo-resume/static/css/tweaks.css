@@ -143,3 +143,13 @@ div.skills-heading{
       border-color: rgb(142, 36, 170);
       background-color: #fff;
     }
+
+    .contact {
+      display: flex; 
+      flex-flow: row wrap;
+    }
+    .contact  li {
+      flex-basis: 50%; 
+      list-style: none;
+    }
+    
