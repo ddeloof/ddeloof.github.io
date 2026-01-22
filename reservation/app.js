@@ -1,5 +1,5 @@
 // Configuration - Update this URL after deploying your backend
-const API_BASE_URL = 'https://YOUR-CLOUD-RUN-URL';
+const API_BASE_URL = 'https://europe-west1-somatogirl.cloudfunctions.net/api';
 
 // State
 let selectedSlot = null;
