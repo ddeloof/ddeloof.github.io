@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prise de Rendez-vous</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Prendre Rendez-vous</h1>
+            <p class="subtitle">Sélectionnez un créneau disponible</p>
+        </header>
+
+        <main>
+            <!-- Loading state -->
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Chargement des créneaux...</p>
+            </div>
+
+            <!-- Error state -->
+            <div id="error" class="error hidden">
+                <p id="error-message"></p>
+                <button onclick="loadSlots()">Réessayer</button>
+            </div>
+
+            <!-- Empty state -->
+            <div id="empty" class="empty hidden">
+                <p>Aucun créneau disponible pour le moment.</p>
+                <p>Veuillez réessayer ultérieurement.</p>
+            </div>
+
+            <!-- Slots list -->
+            <div id="slots-container" class="slots-container hidden"></div>
+        </main>
+
+        <!-- Booking Modal -->
+        <div id="modal" class="modal hidden">
+            <div class="modal-content">
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+                <h2>Réserver ce créneau</h2>
+                <p id="modal-slot-info" class="slot-info"></p>
+
+                <form id="booking-form" onsubmit="submitBooking(event)">
+                    <div class="form-group">
+                        <label for="prenom">Prénom *</label>
+                        <input type="text" id="prenom" name="prenom" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nom">Nom *</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telephone">Téléphone *</label>
+                        <input type="tel" id="telephone" name="telephone" required>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="button" class="btn-secondary" onclick="closeModal()">Annuler</button>
+                        <button type="submit" class="btn-primary" id="submit-btn">Confirmer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Success Modal -->
+        <div id="success-modal" class="modal hidden">
+            <div class="modal-content success">
+                <div class="success-icon">&#10003;</div>
+                <h2>Réservation confirmée !</h2>
+                <p id="success-message"></p>
+                <p class="success-note">Vous recevrez une invitation par email.</p>
+                <button class="btn-primary" onclick="closeSuccessModal()">Fermer</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

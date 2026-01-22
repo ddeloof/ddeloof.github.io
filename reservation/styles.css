@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #7542e5;
+    --primary-hover: #592acb;
+    --primary-active: #45278d;
+    --primary-light: #fae8ff;
+    --text-dark: #15141a;
+    --text-body: #32313c;
+    --text-muted: #5b5b66;
+    --text-light: #80808f;
+    --bg-primary: #fbfbfe;
+    --bg-secondary: #f0f0f4;
+    --bg-card: #ffffff;
+    --border: #cfcfd8;
+    --border-light: #e0e0e6;
+    --success: #059669;
+    --success-light: #d1fae5;
+    --error: #dc2626;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-body);
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 24px 0;
+}
+
+header h1 {
+    color: var(--text-dark);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    letter-spacing: -0.02em;
+}
+
+.subtitle {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+/* Loading State */
+.loading {
+    text-align: center;
+    padding: 64px 24px;
+    color: var(--text-muted);
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--border-light);
+    border-top-color: var(--primary);
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Error State */
+.error {
+    text-align: center;
+    padding: 48px 24px;
+    background-color: var(--bg-card);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08), 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.error p {
+    color: var(--error);
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.error button {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.error button:hover {
+    background-color: var(--primary-hover);
+}
+
+.error button:active {
+    background-color: var(--primary-active);
+}
+
+/* Empty State */
+.empty {
+    text-align: center;
+    padding: 64px 24px;
+    background-color: var(--bg-card);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08), 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.empty p {
+    color: var(--text-muted);
+    margin-bottom: 8px;
+}
+
+/* Slots Container */
+.slots-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* Day Group */
+.day-group {
+    background-color: var(--bg-card);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08), 0 0 1px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.day-header {
+    background-color: var(--primary);
+    color: white;
+    padding: 16px 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: -0.01em;
+}
+
+.slots-list {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* Slot Button */
+.slot-btn {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--text-body);
+}
+
+.slot-btn:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(117, 66, 229, 0.25);
+}
+
+.slot-btn:active {
+    background-color: var(--primary-active);
+    transform: translateY(0);
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 20, 26, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    backdrop-filter: blur(2px);
+}
+
+.modal-content {
+    background-color: var(--bg-card);
+    border-radius: 12px;
+    padding: 32px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2), 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--text-light);
+    transition: color 0.2s ease;
+    line-height: 1;
+    padding: 4px;
+}
+
+.modal-close:hover {
+    color: var(--text-dark);
+}
+
+.modal-content h2 {
+    margin-bottom: 8px;
+    color: var(--text-dark);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.slot-info {
+    background-color: var(--primary-light);
+    padding: 14px 16px;
+    border-radius: 6px;
+    margin-bottom: 24px;
+    color: var(--primary-active);
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+/* Form */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: var(--text-body);
+    font-size: 0.9rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    color: var(--text-dark);
+    background-color: var(--bg-card);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input::placeholder {
+    color: var(--text-light);
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(117, 66, 229, 0.15);
+}
+
+.form-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 28px;
+}
+
+.btn-primary, .btn-secondary {
+    flex: 1;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+}
+
+.btn-primary:active {
+    background-color: var(--primary-active);
+}
+
+.btn-primary:disabled {
+    background-color: var(--border);
+    color: var(--text-light);
+    cursor: not-allowed;
+}
+
+.btn-secondary {
+    background-color: var(--bg-secondary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+}
+
+.btn-secondary:hover {
+    background-color: var(--border-light);
+    color: var(--text-body);
+}
+
+/* Success Modal */
+.modal-content.success {
+    text-align: center;
+    padding: 40px 32px;
+}
+
+.success-icon {
+    width: 64px;
+    height: 64px;
+    background-color: var(--success-light);
+    color: var(--success);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    margin: 0 auto 24px;
+}
+
+.modal-content.success h2 {
+    color: var(--success);
+    margin-bottom: 12px;
+}
+
+.modal-content.success p {
+    color: var(--text-body);
+}
+
+.success-note {
+    color: var(--text-muted) !important;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-size: 0.95rem;
+}
+
+/* Utility */
+.hidden {
+    display: none !important;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px 16px;
+    }
+
+    header {
+        margin-bottom: 32px;
+        padding: 16px 0;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .slots-list {
+        flex-direction: column;
+        padding: 16px;
+    }
+
+    .slot-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .modal-content {
+        padding: 24px;
+        margin: 16px;
+        width: calc(100% - 32px);
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    .btn-primary, .btn-secondary {
+        width: 100%;
+    }
+}
