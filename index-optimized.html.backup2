@@ -340,12 +340,12 @@
 <body>
   <div id="__next">
     <div class="">
-      <div class="container root-container container-flush font-size-ExtraLarge">
-        <div class=" header-section">
+      <div class="container f19l8ale f8obqgr font-size-ExtraLarge">
+        <div class=" f1f4m9lc">
           <link rel="stylesheet" type="text/css" href="./index_files/css">
-          <header class="d-flex flex-wrap justify-content-between align-items-center position-relative section-padding header-height">
+          <header class="d-flex flex-wrap justify-content-between align-items-center position-relative fg93sa fapbs0i">
             <em>“Ce que la parole n'arrive pas à exprimer, le corps s'en charge”</em>
-            <div class="d-flex flex-wrap gap-3 nav-links-container">
+            <div class="d-flex flex-wrap gap-3 f1dqvktd">
               <ul class="nav nav-pills">
                 <li class="nav-item">
                   <a href="#Indications" class="nav-link text">Indications</a>
@@ -365,8 +365,8 @@
             </div>
           </header>
         </div>
-        <div class="container position-relative intro-section section-padding" id="Introduction">
-          <div class="row flex-lg-row align-items-center position-relative flex-centered-row col-12 intro-row">
+        <div class="container position-relative f2q6mzy fg93sa" id="Introduction">
+          <div class="row flex-lg-row align-items-center position-relative f1ii290s col-12 f1y7ruft">
             <div class="col-lg-6 order-2 ps-4 overflow-hidden">
               <div class="intro-image-container"><img src="./index_files/photo-1611073615830-9f76902c10fe"
                   class="d-block mx-lg-auto img-fluid intro-image" alt="persons hand on persons lap" loading="lazy">
@@ -375,19 +375,19 @@
             <div class="col-lg-6 right-col order-1 pe-4">
               <h1 class="font-bold">Delphine De Loof</h1>
               <h1 class="display-5 lh-2 mb-4">Somatopathe</h1>
-              <p class="lead paragraph-spacing font-size-large text-gray-light">
+              <p class="lead f1w5ugeb font-size-large text-gray-light">
               Technique manuelle douce, issue de l'ostéopathie méthode Poyet.
               Libère les maux du corps, les  douleurs articulaires, les tensions aussi bien physiques qu'émotionnelles.              
               </p>              
-              <p class="lead paragraph-spacing"></p>  
+              <p class="lead f1w5ugeb"></p>  
               <div class="d-grid gap-2 d-md-flex"><a href="#Contact"
                   class="btn btn-primary btn-lg md-2">Contact</a></div>
-              <p class="lead paragraph-spacing"></p>  
+              <p class="lead f1w5ugeb"></p>  
               <div class="d-grid gap-2 d-md-flex"><a href="https://calendar.app.google/9fFXez9yMwtH29wA7" target="_blank"
                   class="btn btn-primary btn-lg md-2">Prendre rendez-vous en ligne</a></div>
-              <p class="lead paragraph-spacing"></p>  
+              <p class="lead f1w5ugeb"></p>  
               <hr>
-              <p class="lead paragraph-spacing font-size-large">
+              <p class="lead f1w5ugeb font-size-large">
               Vous avez des douleurs,
               <br>des problèmes émotionnels, relationnels, 
               <br>vous êtes en phase de changement de vie ? 
@@ -398,14 +398,14 @@
           </div>
         </div>
         <div id="Indications">
-          <div class="container services-section section-padding">
-            <h2 class="display-5 lh-2 section-heading font-bold">Indications</h2>
+          <div class="container faquzk0 fg93sa">
+            <h2 class="display-5 lh-2 f1dlmh1s font-bold">Indications</h2>
             <p>Quand faire appel à la somatopathie ?</p>
             <br/>
             <div class="row row-cols-1 gx-4 row-cols-lg-3">
               <div class="feature col d-flex flex-column mb-4">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2  feature-icon">
-                  <div class="w-100 h-100 overflow-hidden img-container background-image icon-border icon-no-shadow image-aspect-ratio">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2  f1gbvfvs">
+                  <div class="w-100 h-100 overflow-hidden img-container fiej2jd f112xhzs f13lgj57 fjdvo17">
                     <div class="adulte"></div>
                   </div>
                 </div>
@@ -417,8 +417,8 @@ Accompagnement de confort de pathologies lourdes
               </div>
 
               <div class="feature col d-flex flex-column mb-4">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2  feature-icon">
-                  <div class="w-100 h-100 overflow-hidden img-container background-image icon-border icon-no-shadow image-aspect-ratio">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2  f1gbvfvs">
+                  <div class="w-100 h-100 overflow-hidden img-container fiej2jd f112xhzs f13lgj57 fjdvo17">
                     <div class="organique"></div>
                   </div>
                 </div>
@@ -430,8 +430,8 @@ Perturbations endocriniennes (règles douloureuses, insomnies, problèmes de thy
               </div>
               
               <div class="feature col d-flex flex-column mb-4">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2  feature-icon">
-                  <div class="w-100 h-100 overflow-hidden img-container background-image icon-border icon-no-shadow image-aspect-ratio">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2  f1gbvfvs">
+                  <div class="w-100 h-100 overflow-hidden img-container fiej2jd f112xhzs f13lgj57 fjdvo17">
                     <div class="emotions"></div>
                   </div>
                 </div>
@@ -445,8 +445,8 @@ Stress, angoisse, peur, phobie                </p>
 
             <div class="row row-cols-1 gx-4 row-cols-lg-3">
               <div class="feature col d-flex flex-column mb-4">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2  feature-icon">
-                  <div class="w-100 h-100 overflow-hidden img-container background-image icon-border icon-no-shadow image-aspect-ratio">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2  f1gbvfvs">
+                  <div class="w-100 h-100 overflow-hidden img-container fiej2jd f112xhzs f13lgj57 fjdvo17">
                     <div class="baby"></div>
                   </div>
                 </div>
@@ -457,8 +457,8 @@ Stress, angoisse, peur, phobie                </p>
               </div>              
               
               <div class="feature col d-flex flex-column mb-4">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2  feature-icon">
-                  <div class="w-100 h-100 overflow-hidden img-container background-image icon-border icon-no-shadow image-aspect-ratio">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2  f1gbvfvs">
+                  <div class="w-100 h-100 overflow-hidden img-container fiej2jd f112xhzs f13lgj57 fjdvo17">
                     <div class="femme"></div>
                   </div>
                 </div>
@@ -471,148 +471,148 @@ Pour le bébé: naissance difficile, sommeil difficile, régurgitation, difficul
             </div>            
           </div>
         </div>
-        <div class="container w-100 d-flex justify-content-center full-width-center section-padding" id="QuoteBanner">
-          <div class="row quotes flex-lg-row align-items-center full-width-content">
-            <div class="col-lg-12 col-sm-12 content-column">
-              <h2 class="display-5 lh-2 section-heading font-bold">La Somatopathie</h2>
+        <div class="container w-100 d-flex justify-content-center f9j4khj fg93sa" id="QuoteBanner">
+          <div class="row quotes flex-lg-row align-items-center f96or0t">
+            <div class="col-lg-12 col-sm-12 f1r530z1">
+              <h2 class="display-5 lh-2 f1dlmh1s font-bold">La Somatopathie</h2>
               <p class="text-center">
                 <img src="somatopathie.jpg" alt="somatopathie"/>
               </p>
-              <div class="vertical-spacer"></div>
-              <p class="lead body-text">
+              <div class="fin4unf"></div>
+              <p class="lead f1ld4zys">
                 La somatopathie est une <b>technique manuelle douce</b> issue de l’ostéopathie développée par Maurice Raymond Poyet.
               </p>                
-              <p class="lead body-text">
+              <p class="lead f1ld4zys">
                 La <b>méthode Poyet</b> est une thérapie manuelle basée sur le MRP : mouvement respiratoire primaire. Ce MRP est un micro mouvement rythmique qui anime tous les tissus et les os de l’organisme. C’est le mouvement de vie a été décrit pour la première fois en 1945 par Sutherland, disciple de Andrew Taylor Still, inventeur de l’ostéopathie.
               </p>
-              <p class="lead body-text">
+              <p class="lead f1ld4zys">
                 La somatopathie a été ensuite développée par un élève de Maurice Raymond Poyet. Elle consiste à mettre en lien les maux physiques et émotionnels, afin de corriger de façon durable les blocages et restaurer la mobilité des articulations, des muscles, des organes.
               </p>
             </div>
           </div>
         </div>
-        <div class="container w-100 d-flex justify-content-center full-width-center section-padding section-light-pink" id="QuoteBanner">
-          <div class="row quotes flex-lg-row align-items-center full-width-content">
-            <div class="col-lg-12 col-sm-12 content-column">
-              <h2 class="display-5 lh-2 section-heading font-bold">En pratique</h2>
+        <div class="container w-100 d-flex justify-content-center f9j4khj fg93sa section-light-pink" id="QuoteBanner">
+          <div class="row quotes flex-lg-row align-items-center f96or0t">
+            <div class="col-lg-12 col-sm-12 f1r530z1">
+              <h2 class="display-5 lh-2 f1dlmh1s font-bold">En pratique</h2>
               <p class="text-center">
                 <img src="poyet.jpg" alt="séance méthode poyet"/>
               </p>
-              <div class="vertical-spacer"></div>
-              <p class="lead body-text">
+              <div class="fin4unf"></div>
+              <p class="lead f1ld4zys">
                 La somatopathie part du principe que notre corps constitue un réceptacle des souvenirs et traumatismes plus ou moins anciens. Il peut s’agir de nos propres expériences ou bien de celles de personnes de notre famille, qui nous les ont transmis consciemment ou non. Certains de ces souvenirs et émotions peuvent provoquer en nous un choc, un stress, un trouble, en réponse aux situations que nous rencontrons.
               </p>                
-              <p class="lead body-text">
+              <p class="lead f1ld4zys">
                 L’objectif de la somatopathie est justement de rétablir l’harmonie du corps et de l’esprit en agissant sur cette mémoire, qui la plupart du temps est inconsciente, par le biais de gestes manuels de correction spécifiques, très légers et d’une mise en conscience.
                 </p>                
-                <p class="lead body-text">
+                <p class="lead f1ld4zys">
                 La somatopathie par son approche globale du corps, prend en compte l’aspect psycho-émotionnel qui peut être à l’origine de vos souffrances physiques, afin d’aider votre corps à retrouver son équilibre
                 </p>                
-                <p class="lead body-text">
+                <p class="lead f1ld4zys">
                 Le Somatopathe ne pratique pas de manipulations : ni thrust vertébral ni cracking articulaire. Il ne pose pas de diagnostic médical et ne prescrit pas.
                 </p>                
-                <p class="lead body-text">
+                <p class="lead f1ld4zys">
                 La somatopathie représente une approche complémentaire à la médecine française traditionnelle mais ne la remplace pas. Tout traitement en cours doit être poursuivi en accord avec le médecin traitant.
               </p>
             </div>
           </div>
         </div>
-        <div class="container w-100 d-flex justify-content-center full-width-center section-padding section-pink" id="QuoteBanner">
-          <div class="row quotes flex-lg-row align-items-center full-width-content">
-            <div class="col-lg-12 col-sm-12 content-column">
-              <h2 class="display-5 lh-2 section-heading font-bold">Déroulement d'une séance</h2>
+        <div class="container w-100 d-flex justify-content-center f9j4khj fg93sa section-pink" id="QuoteBanner">
+          <div class="row quotes flex-lg-row align-items-center f96or0t">
+            <div class="col-lg-12 col-sm-12 f1r530z1">
+              <h2 class="display-5 lh-2 f1dlmh1s font-bold">Déroulement d'une séance</h2>
               <p class="text-center">
                 <img src="séance.jpg" alt="séance somatopathie"/>
               </p>
-              <div class="vertical-spacer"></div>
-              <p class="lead body-text">
+              <div class="fin4unf"></div>
+              <p class="lead f1ld4zys">
                 La somatopathie s’adresse à tous, bébés, enfants, adultes, femmes enceintes. Ce sont les symptômes physiques, corporels, comportementaux, qui guideront la séance, dans le respect de la personne et de ses limites. Les enfants devront être accompagnés d’un parent.
               </p>                
-              <p class="lead body-text">
+              <p class="lead f1ld4zys">
                 La séance dure entre 1 heure et 1h30. Elle est précédée d’un entretien permettant de connaître les antécédents et le terrain de la personne (digestion, allergies, qualité du sommeil, etc.).
               </p>                
-              <p class="lead body-text">            
+              <p class="lead f1ld4zys">            
                 Elle est suivie par une écoute attentive des différents mouvements subtils du crâne et par des corrections au sacrum (bas du dos) et aux pieds pour apporter un équilibre global au corps. Ensuite, le thérapeute dirigera la séance selon la demande en traitant par exemple une douleur à l’épaule, un problème au genou,etc.
               </p>                
-              <p class="lead body-text">            
+              <p class="lead f1ld4zys">            
                 Il n’y a aucune manipulation ni mobilisation structurelle de la colonne vertébrale.
               </p>                
-              <p class="lead body-text">              
+              <p class="lead f1ld4zys">              
                 Pendant les premiers jours après la séance, des réactions neurovégétatives peuvent apparaître (fatigue physique, psychique, émotionnelle), délai habituel où le corps retrouve ses marques et de nouveaux repères.                
               </p>
             </div>
           </div>
         </div>  
-        <div class="container w-100 d-flex justify-content-center full-width-center section-padding section-dark-purple" id="QuoteBanner">
-          <div class="row quotes flex-lg-row align-items-center full-width-content">
-            <div class="col-lg-12 col-sm-12 content-column">
-              <h2 class="display-5 lh-2 section-heading heading-white">Mon parcours</h2>
+        <div class="container w-100 d-flex justify-content-center f9j4khj fg93sa section-dark-purple" id="QuoteBanner">
+          <div class="row quotes flex-lg-row align-items-center f96or0t">
+            <div class="col-lg-12 col-sm-12 f1r530z1">
+              <h2 class="display-5 lh-2 f1dlmh1s heading-white">Mon parcours</h2>
               <p class="text-center">
                 <img src="photo.jpg" alt="delphine de loof"/>
               </p>
-              <div class="vertical-spacer"></div>
-              <p class="lead body-text">
+              <div class="fin4unf"></div>
+              <p class="lead f1ld4zys">
                 Suivant mon intuition et mon désir de prendre soin des autres, je me suis engagée en 2019 dans la formation de Pierre-Camille Vernet, 
                 fondateur de l’<a href="https://www.somatopathie.com/" target="_blank">école de somatopathie®</a>.
               </p>
-              <p class="lead body-text"> 
+              <p class="lead f1ld4zys"> 
                 Cette formation en 4 ans nécessite l’étude de l’anatomie et des protocoles de la Somatopathie, issus de l'approfondissement des travaux du précurseur Maurice-Raymond Poyet, ostéopathe reconnu, qui a su passer d'une ostéopathie structurelle à une ostéopathie informationnelle.
               </p>
             </div>
           </div>
         </div>
-        <div class="w-100 h-100 overflow-hidden contact-banner">
-          <div class="contact-background-image" id="ImageBanner" aria-label="black and brown rotary phone near gray wall"></div>
+        <div class="w-100 h-100 overflow-hidden f1p3vg09">
+          <div class="fxvdpxt" id="ImageBanner" aria-label="black and brown rotary phone near gray wall"></div>
         </div>
-        <div class="container w-100 d-flex justify-content-center contact-section section-padding" id="Contact">          
-          <div class="row quotes flex-lg-row align-items-center full-width-content">
-            <div class="col-lg-8 col-sm-10 content-column">
-              <h2 class="display-5 lh-2 section-heading">Consultations sur Liffré</h2>
-              <div class="lead body-text">
+        <div class="container w-100 d-flex justify-content-center f14qxrhb fg93sa" id="Contact">          
+          <div class="row quotes flex-lg-row align-items-center f96or0t">
+            <div class="col-lg-8 col-sm-10 f1r530z1">
+              <h2 class="display-5 lh-2 f1dlmh1s">Consultations sur Liffré</h2>
+              <div class="lead f1ld4zys">
               <p><a href="https://maps.app.goo.gl/nmhRQyRgtiXYrMNv8">
                 <i class="fa fa-map-marker-alt"></i> Pôle bien-être, 26 bis Rue de Fougères, 35340 Liffré</a></p>
               </div>
 
-              <div class="vertical-spacer"></div>
-              <div class="lead body-text">Consultez mon agenda en ligne pour prendre rendez-vous à une date qui vous
+              <div class="fin4unf"></div>
+              <div class="lead f1ld4zys">Consultez mon agenda en ligne pour prendre rendez-vous à une date qui vous
                 convient:</div>
               <div class="my-4"><a href="https://calendar.app.google/9fFXez9yMwtH29wA7" target="_blank"
                   class="btn btn-primary btn-lg md-2">Agenda en ligne</a></div>
 
             </div>
-            <div class="lead body-text">Contactez-moi pour toute demande spécifique:</div>
-            <div class="col-lg-4 col-sm-5 content-column">              
+            <div class="lead f1ld4zys">Contactez-moi pour toute demande spécifique:</div>
+            <div class="col-lg-4 col-sm-5 f1r530z1">              
               <a href="tel:0695100230" class="btn btn-outline-primary btn-lg md-2 text-no-underline">
                 <i class="fa fa-circle fa-phone-alt"></i> 06.95.10.02.30
               </a>
             </div>
-            <div class="col-lg-4 col-sm-5 content-column">
+            <div class="col-lg-4 col-sm-5 f1r530z1">
               <a href="mailto:delphine.deloof@gmail.com?subject=somatopathie" class="btn btn-outline-primary btn-lg md-2 text-no-underline">
                 <i class="fa fa-circle fa-envelope"></i> delphine.deloof@gmail.com
               </a>
             </div>
             <hr/>
-            <div class="vertical-spacer"></div>            
-            <h2 class="display-5 lh-2 section-heading">Tarifs</h2>
-            <div class="col-lg-4 col-sm-5 lead body-text text-right">
+            <div class="fin4unf"></div>            
+            <h2 class="display-5 lh-2 f1dlmh1s">Tarifs</h2>
+            <div class="col-lg-4 col-sm-5 lead f1ld4zys text-right">
               Séance: 70€              
             </div>
             <div class="col-lg-1 col-sm-1">
             </div>
-            <div class="col-lg-4 col-sm-5 lead body-text">
+            <div class="col-lg-4 col-sm-5 lead f1ld4zys">
               <ul class="list-unstyled-custom">
                 <li><i class="fa fa-money-check-pen"></i> &nbsp;chèque</li>
                 <li><i class="fa fa-money-bill-1-wave"></i> &nbsp;espèces</li>
               </ul>
             </div>
-            <div class="lead body-text">
+            <div class="lead f1ld4zys">
               Attestation de consultation sur demande pour remboursement mutuelle (selon contrat)
             </div>
           </div>  
         </div>
-        <div class="container reviews-section section-padding" id="Avis">
-          <div class="reviews-carousel">
-            <h2 class="text-center reviews-heading">Avis</h2>
+        <div class="container f1rziroh fg93sa" id="Avis">
+          <div class="fskx96p">
+            <h2 class="text-center f14z0jsa">Avis</h2>
             <div class="row g-4 content">
               <div class="prev-btn highlight">
               </div>
