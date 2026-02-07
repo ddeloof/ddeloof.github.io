@@ -339,9 +339,11 @@
 
 <body>
   <div id="__next">
-    <div class="container root-container container-flush font-size-ExtraLarge">
-      <link rel="stylesheet" type="text/css" href="./index_files/css">
-      <header class="d-flex flex-wrap justify-content-between align-items-center position-relative section-padding header-height header-section">
+    <div class="">
+      <div class="container root-container container-flush font-size-ExtraLarge">
+        <div class=" header-section">
+          <link rel="stylesheet" type="text/css" href="./index_files/css">
+          <header class="d-flex flex-wrap justify-content-between align-items-center position-relative section-padding header-height">
             <em>“Ce que la parole n'arrive pas à exprimer, le corps s'en charge”</em>
             <div class="d-flex flex-wrap gap-3 nav-links-container">
               <ul class="nav nav-pills">
@@ -354,31 +356,37 @@
                 <li class="nav-item">
                   <a href="#Avis" class="nav-link text">Avis</a>
                 </li>
-                <li class="nav-item">
-                  <a href="https://www.facebook.com/delphine.deloof.somatopathe" target="_blank" class="nav-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <li class="nav-item d-flex align-items-center">
+                  <a href="https://www.facebook.com/delphine.deloof.somatopathe" target="_blank"><i class="fab fa-facebook">&nbsp;</i></a>
                 </li>
               </ul>              
-              <a href="#Contact" class="btn btn-primary ms-2">Contact</a>
+              <div class="col-auto ms-2 text-end d-flex align-self-center"><a
+                  href="#Contact" class="btn btn-primary">Contact</a></div>
             </div>
           </header>
-        <div class="container intro-section section-padding position-relative" id="Introduction">
-          <div class="row align-items-center intro-row">
-            <div class="col-lg-6 order-2 ps-4">
-              <img src="./index_files/photo-1611073615830-9f76902c10fe"
-                class="d-block mx-lg-auto img-fluid intro-image intro-image-container" alt="persons hand on persons lap" loading="lazy">
+        </div>
+        <div class="container position-relative intro-section section-padding" id="Introduction">
+          <div class="row flex-lg-row align-items-center position-relative flex-centered-row col-12 intro-row">
+            <div class="col-lg-6 order-2 ps-4 overflow-hidden">
+              <div class="intro-image-container"><img src="./index_files/photo-1611073615830-9f76902c10fe"
+                  class="d-block mx-lg-auto img-fluid intro-image" alt="persons hand on persons lap" loading="lazy">
+              </div>
             </div>
             <div class="col-lg-6 right-col order-1 pe-4">
               <h1 class="font-bold">Delphine De Loof</h1>
               <h1 class="display-5 lh-2 mb-4">Somatopathe</h1>
               <p class="lead paragraph-spacing font-size-large text-gray-light">
               Technique manuelle douce, issue de l'ostéopathie méthode Poyet.
-              Libère les maux du corps, les  douleurs articulaires, les tensions aussi bien physiques qu'émotionnelles.
-              </p>
-              <div class="d-grid gap-2 d-md-flex mt-4"><a href="#Contact"
+              Libère les maux du corps, les  douleurs articulaires, les tensions aussi bien physiques qu'émotionnelles.              
+              </p>              
+              <p class="lead paragraph-spacing"></p>  
+              <div class="d-grid gap-2 d-md-flex"><a href="#Contact"
                   class="btn btn-primary btn-lg md-2">Contact</a></div>
-              <div class="d-grid gap-2 d-md-flex mt-3"><a href="https://calendar.app.google/9fFXez9yMwtH29wA7" target="_blank"
+              <p class="lead paragraph-spacing"></p>  
+              <div class="d-grid gap-2 d-md-flex"><a href="https://calendar.app.google/9fFXez9yMwtH29wA7" target="_blank"
                   class="btn btn-primary btn-lg md-2">Prendre rendez-vous en ligne</a></div>
-              <hr class="my-4">
+              <p class="lead paragraph-spacing"></p>  
+              <hr>
               <p class="lead paragraph-spacing font-size-large">
               Vous avez des douleurs,
               <br>des problèmes émotionnels, relationnels, 
@@ -396,7 +404,11 @@
             <br/>
             <div class="row row-cols-1 gx-4 row-cols-lg-3">
               <div class="feature col d-flex flex-column mb-4">
-                <div class="adulte feature-icon"></div>
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2  feature-icon">
+                  <div class="w-100 h-100 overflow-hidden img-container background-image icon-border icon-no-shadow image-aspect-ratio">
+                    <div class="adulte"></div>
+                  </div>
+                </div>
                 <h3>Douleurs articulaires et névralgies</h3>
                 <p class="pe-4">
 Maux de dos, douleurs vertébrales, douleurs cervicales, sciatiques, lombalgies...<br/>
@@ -405,7 +417,11 @@ Accompagnement de confort de pathologies lourdes
               </div>
 
               <div class="feature col d-flex flex-column mb-4">
-                <div class="organique feature-icon"></div>
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2  feature-icon">
+                  <div class="w-100 h-100 overflow-hidden img-container background-image icon-border icon-no-shadow image-aspect-ratio">
+                    <div class="organique"></div>
+                  </div>
+                </div>
                 <h3>Dysfonctionnements organiques</h3>
                 <p class="pe-4">
 Troubles respiratoire (asthme), gynécologiques, urinaires, digestifs
@@ -414,7 +430,11 @@ Perturbations endocriniennes (règles douloureuses, insomnies, problèmes de thy
               </div>
               
               <div class="feature col d-flex flex-column mb-4">
-                <div class="emotions feature-icon"></div>
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2  feature-icon">
+                  <div class="w-100 h-100 overflow-hidden img-container background-image icon-border icon-no-shadow image-aspect-ratio">
+                    <div class="emotions"></div>
+                  </div>
+                </div>
                 <h3>Accompagnement émotionnel</h3>
                 <p class="pe-4">
 Acceptation et estime de soi, deuil, burn-out, épuisement mental
@@ -425,7 +445,11 @@ Stress, angoisse, peur, phobie                </p>
 
             <div class="row row-cols-1 gx-4 row-cols-lg-3">
               <div class="feature col d-flex flex-column mb-4">
-                <div class="baby feature-icon"></div>
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2  feature-icon">
+                  <div class="w-100 h-100 overflow-hidden img-container background-image icon-border icon-no-shadow image-aspect-ratio">
+                    <div class="baby"></div>
+                  </div>
+                </div>
                 <h3>Enfants et ados</h3>
                 <p class="pe-4">
                   Troubles du sommeil, phobie scolaire, troubles du comportement, colères, tristesse
@@ -433,7 +457,11 @@ Stress, angoisse, peur, phobie                </p>
               </div>              
               
               <div class="feature col d-flex flex-column mb-4">
-                <div class="femme feature-icon"></div>
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2  feature-icon">
+                  <div class="w-100 h-100 overflow-hidden img-container background-image icon-border icon-no-shadow image-aspect-ratio">
+                    <div class="femme"></div>
+                  </div>
+                </div>
                 <h3>Bébés et femme enceinte</h3>
                 <p class="pe-4">
 Symptômes liés à la grossesse: douleurs lombaires, hyperlordose, constipation, nausées, baby blues, dépression post-partum
@@ -444,12 +472,13 @@ Pour le bébé: naissance difficile, sommeil difficile, régurgitation, difficul
           </div>
         </div>
         <div class="container w-100 d-flex justify-content-center full-width-center section-padding" id="QuoteBanner">
-          <div class="row quotes align-items-center full-width-content">
-            <div class="col-12 content-column">
+          <div class="row quotes flex-lg-row align-items-center full-width-content">
+            <div class="col-lg-12 col-sm-12 content-column">
               <h2 class="display-5 lh-2 section-heading font-bold">La Somatopathie</h2>
               <p class="text-center">
                 <img src="somatopathie.jpg" alt="somatopathie"/>
               </p>
+              <div class="vertical-spacer"></div>
               <p class="lead body-text">
                 La somatopathie est une <b>technique manuelle douce</b> issue de l’ostéopathie développée par Maurice Raymond Poyet.
               </p>                
@@ -463,12 +492,13 @@ Pour le bébé: naissance difficile, sommeil difficile, régurgitation, difficul
           </div>
         </div>
         <div class="container w-100 d-flex justify-content-center full-width-center section-padding section-light-pink" id="QuoteBanner">
-          <div class="row quotes align-items-center full-width-content">
-            <div class="col-12 content-column">
+          <div class="row quotes flex-lg-row align-items-center full-width-content">
+            <div class="col-lg-12 col-sm-12 content-column">
               <h2 class="display-5 lh-2 section-heading font-bold">En pratique</h2>
               <p class="text-center">
                 <img src="poyet.jpg" alt="séance méthode poyet"/>
               </p>
+              <div class="vertical-spacer"></div>
               <p class="lead body-text">
                 La somatopathie part du principe que notre corps constitue un réceptacle des souvenirs et traumatismes plus ou moins anciens. Il peut s’agir de nos propres expériences ou bien de celles de personnes de notre famille, qui nous les ont transmis consciemment ou non. Certains de ces souvenirs et émotions peuvent provoquer en nous un choc, un stress, un trouble, en réponse aux situations que nous rencontrons.
               </p>                
@@ -488,12 +518,13 @@ Pour le bébé: naissance difficile, sommeil difficile, régurgitation, difficul
           </div>
         </div>
         <div class="container w-100 d-flex justify-content-center full-width-center section-padding section-pink" id="QuoteBanner">
-          <div class="row quotes align-items-center full-width-content">
-            <div class="col-12 content-column">
+          <div class="row quotes flex-lg-row align-items-center full-width-content">
+            <div class="col-lg-12 col-sm-12 content-column">
               <h2 class="display-5 lh-2 section-heading font-bold">Déroulement d'une séance</h2>
               <p class="text-center">
                 <img src="séance.jpg" alt="séance somatopathie"/>
               </p>
+              <div class="vertical-spacer"></div>
               <p class="lead body-text">
                 La somatopathie s’adresse à tous, bébés, enfants, adultes, femmes enceintes. Ce sont les symptômes physiques, corporels, comportementaux, qui guideront la séance, dans le respect de la personne et de ses limites. Les enfants devront être accompagnés d’un parent.
               </p>                
@@ -513,12 +544,13 @@ Pour le bébé: naissance difficile, sommeil difficile, régurgitation, difficul
           </div>
         </div>  
         <div class="container w-100 d-flex justify-content-center full-width-center section-padding section-dark-purple" id="QuoteBanner">
-          <div class="row quotes align-items-center full-width-content">
-            <div class="col-12 content-column">
+          <div class="row quotes flex-lg-row align-items-center full-width-content">
+            <div class="col-lg-12 col-sm-12 content-column">
               <h2 class="display-5 lh-2 section-heading heading-white">Mon parcours</h2>
               <p class="text-center">
                 <img src="photo.jpg" alt="delphine de loof"/>
               </p>
+              <div class="vertical-spacer"></div>
               <p class="lead body-text">
                 Suivant mon intuition et mon désir de prendre soin des autres, je me suis engagée en 2019 dans la formation de Pierre-Camille Vernet, 
                 fondateur de l’<a href="https://www.somatopathie.com/" target="_blank">école de somatopathie®</a>.
@@ -541,6 +573,7 @@ Pour le bébé: naissance difficile, sommeil difficile, régurgitation, difficul
                 <i class="fa fa-map-marker-alt"></i> Pôle bien-être, 26 bis Rue de Fougères, 35340 Liffré</a></p>
               </div>
 
+              <div class="vertical-spacer"></div>
               <div class="lead body-text">Consultez mon agenda en ligne pour prendre rendez-vous à une date qui vous
                 convient:</div>
               <div class="my-4"><a href="https://calendar.app.google/9fFXez9yMwtH29wA7" target="_blank"
@@ -559,15 +592,17 @@ Pour le bébé: naissance difficile, sommeil difficile, régurgitation, difficul
               </a>
             </div>
             <hr/>
+            <div class="vertical-spacer"></div>            
             <h2 class="display-5 lh-2 section-heading">Tarifs</h2>
-            <div class="col-md-5 lead body-text text-right">
-              Séance: 70€
+            <div class="col-lg-4 col-sm-5 lead body-text text-right">
+              Séance: 70€              
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-5 lead body-text">
+            <div class="col-lg-1 col-sm-1">
+            </div>
+            <div class="col-lg-4 col-sm-5 lead body-text">
               <ul class="list-unstyled-custom">
-                <li><i class="fa \1"></i> chèque</li>
-                <li><i class="fa \1"></i> espèces</li>
+                <li><i class="fa fa-money-check-pen"></i> &nbsp;chèque</li>
+                <li><i class="fa fa-money-bill-1-wave"></i> &nbsp;espèces</li>
               </ul>
             </div>
             <div class="lead body-text">
@@ -584,21 +619,38 @@ Pour le bébé: naissance difficile, sommeil difficile, régurgitation, difficul
               <div id="reviewsCarousel" class="carousel slide carousel-container " data-bs-ride="carousel"
                 data-bs-interval="10000">
                 <div class="carousel-inner">
-                  <div class="carousel-item carousel-review">
-                    <p class="mb-0">"Delphine est une professionnelle à l'écoute, compétente et bienveillante.<br>Entre ses mains vos maux disparaîtront."</p>
-                    <div class="highlight author-info">Gaëlle, Liffré</div>
+                  <div class="carousel-item ">
+                    <div class="carousel-review ">
+                      <p class="mb-0">"<!-- -->Delphine est une professionnelle à l'écoute, compétente et bienveillante.
+                        <br>
+                        Entre ses mains vos maux disparaîtront.<!-- -->"</p>
+                      <div class="highlight author-info">Gaëlle, Liffré</div>
+                    </div>
                   </div>
-                  <div class="carousel-item carousel-review">
-                    <p class="mb-0">"J'ai amené mon fils qui se plaignait d avoir mal à la hanche quand il marchait.<br>Rien de particulier aux radios.<br>Du jour où il est passé sous ses mains, Léo n'a plus eu de douleur."</p>
-                    <div class="highlight author-info">Aurélie, Bazouges-la-Pérouse</div>
+                  <div class="carousel-item">
+                    <div class="carousel-review ">
+                      <p class="mb-0">"<!-- -->J'ai amené mon fils qui se plaignait d avoir mal à la hanche quand il
+                        marchait.<br>
+                        Rien de particulier aux radios.<br>
+                        Du jour où il est passé sous ses mains, Léo n'a plus eu de douleur.<!-- -->"</p>
+                      <div class="highlight author-info">Aurélie, Bazouges-la-Pérouse</div>
+                    </div>
                   </div>
-                  <div class="carousel-item carousel-review">
-                    <p class="mb-0">"Delphine m'a beaucoup apaisée tant physiquement que psychologiquement.<br>J'ai pu mettre des mots sur ce qui m'arrivait."</p>
-                    <div class="highlight author-info">Arnaud, Dourdain</div>
+                  <div class="carousel-item ">
+                    <div class="carousel-review ">
+                      <p class="mb-0">"<!-- -->Delphine m'a beaucoup apaisée tant physiquement que psychologiquement.<br>
+                        J'ai pu mettre des mots sur ce qui m'arrivait.
+                        <!-- -->"
+                      </p>
+                      <div class="highlight author-info">Arnaud, Dourdain</div>
+                    </div>
                   </div>
-                  <div class="carousel-item carousel-review active">
-                    <p class="mb-0">"Séance très bénéfique, cela m'a appris beaucoup de choses sur les maux de mon corps et tout correspond."</p>
-                    <div class="highlight author-info">Nathalie, Montreuil-des-Landes</div>
+                  <div class="carousel-item active">
+                    <div class="carousel-review ">
+                      <p class="mb-0">"<!-- -->Séance très bénéfique, cela m’a appris beaucoup de choses sur les maux de
+                        mon corps et tout correspond.<!-- -->"</p>
+                      <div class="highlight author-info">Nathalie, Montreuil-des-Landes</div>
+                    </div>
                   </div>
                 </div>
               </div>

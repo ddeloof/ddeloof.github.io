@@ -49,7 +49,7 @@
       color: #15141A;
       font-family: Metropolis, Inter;
       font-feature-settings: 'ss03' on, 'cv02' on, 'cv01' on, 'cv08' on;
-      font-style: bold;
+      font-style: normal;
       font-weight: 700;
       letter-spacing: -0.01em;
       margin-bottom: 0
@@ -2252,8 +2252,13 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 100%;
-      width: 100%
+      width: 100%;
+      aspect-ratio: 1.33;
+      margin-bottom: 12px;
+      box-shadow: none;
+      border: 4px solid #fff;
+      border-left: none;
+      border-right: none
     }
 
     .baby {
@@ -2261,8 +2266,13 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 100%;
-      width: 100%
+      width: 100%;
+      aspect-ratio: 1.33;
+      margin-bottom: 12px;
+      box-shadow: none;
+      border: 4px solid #fff;
+      border-left: none;
+      border-right: none
     }
 
     .emotions {
@@ -2270,8 +2280,13 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 100%;
-      width: 100%
+      width: 100%;
+      aspect-ratio: 1.33;
+      margin-bottom: 12px;
+      box-shadow: none;
+      border: 4px solid #fff;
+      border-left: none;
+      border-right: none
     }
 
     .organique {
@@ -2279,8 +2294,13 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 100%;
-      width: 100%
+      width: 100%;
+      aspect-ratio: 1.33;
+      margin-bottom: 12px;
+      box-shadow: none;
+      border: 4px solid #fff;
+      border-left: none;
+      border-right: none
     }
 
     .femme {
@@ -2288,8 +2308,13 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 100%;
-      width: 100%
+      width: 100%;
+      aspect-ratio: 1.33;
+      margin-bottom: 12px;
+      box-shadow: none;
+      border: 4px solid #fff;
+      border-left: none;
+      border-right: none
     }
 
     .contact-banner {
